@@ -1,107 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-        <title>Bootstrap Example</title>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="styles.css">
-
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--Normalize-->
+      <link rel="stylesheet" href="normalize.css">
+      <!--Favicon-->
+      <link rel="icon" href="https://res.cloudinary.com/pixel-direction/image/upload/v1662655373/Cv./1a2_nt6klw.ico">
+      <!--nav de youtube-->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+      <!---->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+      <title>Héctor Flores</title>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
       </head>
-<!-- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Héctor Alexis Flores López</title>
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-  
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css">
-</head> -->
 <body>
+         
+  <nav>
+    <!--Esta es el menú hamburguesa-->
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a href="conoceme.html">Conoceme</a></li>
+        <li><a href="misproyectos.html">Mis Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
         <div class="container">
-
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="conoceme.html">Conoceme</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Mis Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Contacto</a>
-                </li>
-              </ul>
-              <hr>
-            <!--- <nav class="nav-main">
-                
-                <ul class="nav-menu">
-                    <li>
-                        <a href="#">Conoceme</a>
-                    </li>
-                    <li>
-                        <a href="#">Mis Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacto</a>
-                    </li>
-                    
-                </ul>
-                
-                <ul class="nav-menu-right">
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </li>
-                </ul>
-             </nav>
-             <hr> -->
-             <p class="ct">Héctor Alexis Flores López</p>
-             <h1 class="subtitle">Desarrollador Java Full Stack Jr.</h1>
-             <div class="foto">
-             <img src="img/DSC07793-Editar.jpg" alt="Héctor Alexis Flores López" class="nav-brand">
+          <br>
+          <br>
+              <h1 class="ct" style="font-family: Bebas Neue;" >Héctor Alexis Flores López</h1>
+              <p class="subtitle">Full Stack Developer Jr.</p>
+            <div class="foto">
+              <img src="https://res.cloudinary.com/pixel-direction/image/upload/v1662005819/Cv./circulspng1_rjb2ty.png" alt="Héctor Alexis Flores López" class="tamañofoto">
             </div>
-             
             <section class="social">
+              <p>Hola, mi nombre es Héctor Flores. </p>
+                <p>   Soy Full Stack Developer Junior, diseñador gráfico, emprendedor y productor audiovisual. </p>
+                  <p>  Me apasionan los temas tanto de front end como back end. </p>
+                    <p> Tengo una increíble necesidad de crear y resolver problemas.</p>
 
-                <p>Follow me!</p>
+                <p style="font-family: Bebas Neue;">Follow Me!</p>
+
                 <div class="links">
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
+                    <a href="https://www.linkedin.com/in/h%C3%A9ctor-alexis-flores-l%C3%B3pez-67162813a/">
+                        <i class="fab fa-linkedin"></i>                    
                     </a>
-                    <a href="#">
-                        <i class="fab fa-youtube"></i>
+                    <a href="https://github.com/HectorAlexisFloresLopez">
+                        <i class="fab fa-github"></i>
                     </a>
-                    <a href="#">
-                        <i class="fab fa-tiktok"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                    <a href="https://wa.me/qr/YY2YZRDKW7UDA1">
+                      <i class="fab fa-whatsapp"></i>
+                  </a>
                 </div>
 
              </section>
-
-            </div>
-       
-            <div class="footer-links">
-                <div class="footer-container">
-                    
-                </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        </div>
+          <div class="footer-links">
+          <div class="footer-container">               
+        </div>
+            
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
 </html>
